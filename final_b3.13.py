@@ -47,7 +47,6 @@ class Tag:
 
 
 class HTML(Tag):
-
     def __init__(self, output=None):
         self.tag = "html"
         self.is_single = False
